@@ -19,7 +19,6 @@
   h1,
   h2,
   h3 {
-    text-align: center;
     margin: 0;
     color: black;
     font-family: var(--heading-font-family);
@@ -99,11 +98,11 @@
   }
 
   .content-section {
-    padding: 160px 20px;
+    padding: 100px 20px;
   }
   
   .content-section h1 {
-    font-size: 64px;
+    font-size: 60px;
     line-height: 80px;
   }
   
@@ -112,8 +111,15 @@
     font-family: var(--default-font-family);
   }
   
-  .content-section-content {
+  .about-section-content {
     margin: 30px;
+  }
+
+  .description {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--default-font-family);
+    line-height: 1.2;
   }
 
   @media (max-width: 576px) {
@@ -138,6 +144,10 @@
     .content-section {
       text-align: center;
       padding: 0;
+    }
+    
+    .about-section-content h1 {
+      font-size: 24px;
     }
   
   } 
