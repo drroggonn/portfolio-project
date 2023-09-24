@@ -143,12 +143,12 @@
   }
   
   footer .email-link:hover {
-    color: var(--branding-color);
+    color: var(--primary-color);
   }
   
   footer .social-links a {
     margin: 0 20px;
-    color: var(--branding-color);
+    color: var(--primary-color);
     background: var(--secondary-color);
     padding: 10px 14px;
     border-radius: 50%;
@@ -158,7 +158,7 @@
   
   footer .social-links a:hover {
     color: white;
-    background: var(--branding-color);
+    background: var(--primary-color);
   }
   
 
